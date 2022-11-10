@@ -1,0 +1,59 @@
+body {
+  background-color: #6c87b0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#search > .MuiInputBase-root {
+  width: 370px;
+}
+
+#search {
+  color: #ffffff;
+  margin: 10px 0 -5px 0;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.todo-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+.todo-item.completed {
+  background-color: #acd2b1;
+}
+
+.todo-item .actions {
+  margin-left: auto;
+  display: flex;
+}
+
+.delete-item {
+  color: #643030;
+}
+
+.todo-item .save {
+  color: #527892;
+  font-weight: 600;
+}
+
+.todo-item .cancel {
+  font-size: 0.8rem;
+  color: rgb(105 105 105 / 87%);
+}
+
+.todo-item.add-icon {
+  justify-content: center;
+  color: #70bdc2;
+}
